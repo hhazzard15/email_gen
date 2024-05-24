@@ -3,7 +3,9 @@ To run the auto email generator:
 2. Open a command window and enter the following lines to ensure you have correct dependencies:
 
    python --version
+   
    pip install pyperclip
+   
    python -m pip install pywin32
 
 4. If all dependencies are met, run the project by double clicking 'gen_gui.py' to run it
