@@ -8,8 +8,10 @@ To run the auto email generator:
    
    python -m pip install pywin32
 
-3. You will have to change in the working directory in 'gen_gui.py' (should be on line 84) to match the directory that you have the project downloaded to 
+3. You will have to change the the working directory in 'gen_gui.py' (should be on line 84) to match the directory that you have the project downloaded to 
 
-4. If all dependencies are met, run the project by double clicking 'gen_gui.py' to run it
+4. If all dependencies are met, run the project by double clicking 'gen_gui.py'
 5. A small GUI window should pop up asking for a name
-6. After entering a name and pressing Enter, the GUI should close and a new Outlook email should open 
+6. After entering a name and pressing Enter, the GUI should close and a new Outlook email should open. It uses whatever is copied to your computer's clipboard as the recipient
+
+I recommend using VS Code to edit the files
